@@ -1,0 +1,111 @@
+<!-- TO ACHIEVE THIS TYPE IN "!" AND PRESS "TAB" -->
+<!DOCTYPE html>
+<!-- html below is a tag pair. "lang" is a language setting and is set to English. Html has 2 children: head and body -->
+<html lang="en">
+<!-- head below is a tag pair. It contains metadata about the document and links to external resources. -->
+<head>
+    <!-- meta below is a tag pair. It provides metadata about the HTML document. chrset = "UTF-8" is pulling all latin charachters-->
+    <meta charset="UTF-8">
+    <!-- Tag pair. Provides metadata about the HTML document. name = "viewport" is setting the viewport to the device's width and initial scale to 1.0 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-DEV-ELEMENTS</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/favicons/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Web Dev Starter" />
+    <link rel="manifest" href="/favicons/site.webmanifest" />    
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+     <!-- script:src and then press tab for shortcut-->
+    <script src="script.js" defer> </script>
+
+</head>
+
+
+<!-- body below is a tag pair. It contains the content of the document. -->
+<body>
+    <!-- Title for what this code is -->
+     <h1>WEB-DEV-ELEMENTS</h1>
+        
+    <!-- Markup of errors -->
+    <p><mark>Teh</mark> internet is a <mark>globell systamm</mark> of interconnected <mark>computerr netweerks</mark> that uses standardized communication protocols to link devices worldwide. </p>
+
+    <!-- Current time -->
+    <p>The current time is <time datetime="12:49">12:49 p.m.</time> </p>
+
+    <!-- Current date -->
+    <p>Today's date is <time datetime="2024-10-10">October 10, 2024</time></p>
+
+    <!-- Video containing cotrols, autoplay and loop -->
+    <video controls autoplay loop> <source src="https://assets.codepen.io/16425/gino-push.mp4" type="video/mp4"> </video> -->
+    
+    <br>
+
+    <!-- Audio element implementing controls autoplay and loop -->
+    <audio controls autoplay loop> <source src="https://assets.codepen.io/16425/woop-woop.mp3" type="audio/mpeg"> </audio>
+
+    <br>
+
+    <!-- Blockquote element to cite a quote -->
+    <blockquote cite = "https://www.goodreads.com/quotes/10190811-in-one-way-we-think-a-great-deal-too-much#:~:text=If%20we%20are%20all%20going%20to%20be%20destroyed,together%20like%20frightened%20sheep%20and%20thinking%20about%20bombs.">
+    "If we are all going to be destroyed by an atomic bomb, let that bomb when it comes find us doing sensible and human things—praying, working, teaching, reading, listening to music, bathing the children, playing tennis, chatting to our friends over a pint and a game of darts—not huddled together like frightened sheep and thinking about bombs" - C.S. Lewis
+    <blockquote>
+    
+    <br>
+
+    <!-- Adress element to reference an address -->
+    <address>
+        12345 E First Ave<br>
+        Spokane, WA 99123
+    </address>
+
+    <br>
+
+    <!-- Jeff Bezos face button -->
+    <button id="jeffBezosButton">Help Jeff Bezos Buy A 🛥️ Boat</button>
+
+    <br>
+
+    <!-- Disabled button -->
+    <button disabled>Empty Amazon Cart</button>
+
+    <br>
+
+    <!-- Setting image for first button -->
+    <img id="jeffBezosImage" src="https://assets.entrepreneur.com/content/3x2/2000/20180906192954-GettyImages-950750900-crop.jpeg" style="display:none;" alt="Jeff Bezos Boat" />
+
+    <br>
+
+    <script> document.getElementById('jeffBezosButton').onclick = function() {var img = document.getElementById('jeffBezosImage');
+    img.style.display =(img.style.display === 'none') ? 'block' : 'none';
+    };
+    </script>
+
+    <br>
+
+    <!-- Details/Dropdown -->
+    <details>
+    <summary>Who is Swoop?</summary>
+    Swoop, Eastern Washington University's mascot, is an ambassador, spirit leader, and fun-loving character. Go Eags! 
+    
+    <!-- Break Point -->
+    <br>
+        
+    <!--  Image Source  -->
+    <img src="https://th.bing.com/th/id/R.51577cc5ca872483cbde7767cb00dd1a?rik=K1ZSmR09DSx37g&riu=http%3a%2f%2feaglestore.ewu.edu%2fSiteImages%2f40-SchoolImages%2f40-Swoop200.png&ehk=q%2f%2fgq0eypn%2fBucZ1XrC%2bmxB8cOIz1HVI6D6oHkS3Ogw%3d&risl=&pid=ImgRaw&r=0" alt="Swoop, EWU's mascot">
+    </details>
+
+    <br>
+
+    <!-- Phone Number -->
+    <a href="tel:+15091234567">509-123-4567</a>
+</body>
+</html>
+
+    
